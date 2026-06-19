@@ -43,7 +43,7 @@ Không dùng `make`:
 python -m venv .venv && . .venv/bin/activate     # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 python verify.py && python main.py && python flywheel.py && python kg_demo.py
-pytest -q
+python -m pytest -q
 ```
 
 > **Phiên bản Python:** đường lite chạy trên **Python 3.10+** (đã test 3.14).
